@@ -64,7 +64,7 @@
 ### 2. Open Termux and just copy paste all the commands that described below, Make sure you have internet connection. if you see Y/n then Type y.
 
 ```
-apt update && apt upgrade -y && apt install git python3 -y && apt upgrade python3 -y && pip install google-api-python-client google-auth-httplib2 google-auth-oauthlib
+apt update && apt upgrade -y && apt install git python3 -y && apt upgrade python3 -y && pkg install python-cryptography && pip install google-api-python-client google-auth-httplib2 google-auth-oauthlib
 
 ```
 
@@ -77,7 +77,7 @@ apt update && apt upgrade
 ### 4.
 
 ```
-git clone https://github.com/KingOfState/TokenPickle
+git clone https://github.com/CodeRed-001/TokenPickle
 ```
 
 ### 5. make sure Credentials.json file present in your storage not in any folder. if not then just move credentials.json file into the storage. Not in any folder.
